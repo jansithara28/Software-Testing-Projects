@@ -1,0 +1,17 @@
+| Scenario ID | Module       | Test Scenario                                        |
+| ----------- | ------------ | ---------------------------------------------------- |
+| TS001       | Login        | Verify login with valid email and password           |
+| TS002       | Login        | Verify login with an invalid email                   |
+| TS003       | Login        | Verify login with an invalid password                |
+| TS004       | Login        | Verify login with both fields empty                  |
+| TS005       | Login        | Verify login with email field empty                  |
+| TS006       | Login        | Verify login with password field empty               |
+| TS007       | Login        | Verify login with an unregistered email              |
+| TS008       | Login        | Verify login with email containing invalid format    |
+| TS009       | Login        | Verify logout functionality                          |
+| TS010       | Registration | Verify registration using valid details              |
+| TS011       | Registration | Verify registration with an already registered email |
+| TS012       | Registration | Verify registration with mandatory fields empty      |
+| TS013       | Registration | Verify registration with an invalid email format     |
+| TS014       | Registration | Verify account creation with valid personal details  |
+| TS015       | Registration | Verify login after successful registration           |

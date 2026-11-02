@@ -1,0 +1,37 @@
+| Test Case ID | Test Case Description                        | Execution Status | Actual Result | Remarks |
+| ------------ | -------------------------------------------- | ---------------- | ------------- | ------- |
+| TC001        | Login with valid credentials                 | Not Run          |               |         |
+| TC002        | Verify successful login message              | Not Run          |               |         |
+| TC003        | Login with invalid email                     | Not Run          |               |         |
+| TC004        | Login with invalid password                  | Not Run          |               |         |
+| TC005        | Login with both fields empty                 | Not Run          |               |         |
+| TC006        | Login with email field empty                 | Not Run          |               |         |
+| TC007        | Login with password field empty              | Not Run          |               |         |
+| TC008        | Login using unregistered email               | Not Run          |               |         |
+| TC009        | Login with invalid email format              | Not Run          |               |         |
+| TC010        | Verify email field accepts valid email       | Not Run          |               |         |
+| TC011        | Verify password field accepts input          | Not Run          |               |         |
+| TC012        | Verify login button functionality            | Not Run          |               |         |
+| TC013        | Verify email with leading spaces             | Not Run          |               |         |
+| TC014        | Verify email with trailing spaces            | Not Run          |               |         |
+| TC015        | Verify logout functionality                  | Not Run          |               |         |
+| TC016        | Verify login page after logout               | Not Run          |               |         |
+| TC017        | Verify protected account access after logout | Not Run          |               |         |
+| TC018        | Open registration page                       | Not Run          |               |         |
+| TC019        | Register using valid details                 | Not Run          |               |         |
+| TC020        | Register using existing email                | Not Run          |               |         |
+| TC021        | Submit registration with empty name          | Not Run          |               |         |
+| TC022        | Submit registration with empty email         | Not Run          |               |         |
+| TC023        | Register using invalid email format          | Not Run          |               |         |
+| TC024        | Enter personal details                       | Not Run          |               |         |
+| TC025        | Verify gender selection                      | Not Run          |               |         |
+| TC026        | Verify date of birth fields                  | Not Run          |               |         |
+| TC027        | Verify address information fields            | Not Run          |               |         |
+| TC028        | Verify country selection                     | Not Run          |               |         |
+| TC029        | Verify mobile number field                   | Not Run          |               |         |
+| TC030        | Verify password field during registration    | Not Run          |               |         |
+| TC031        | Complete registration form                   | Not Run          |               |         |
+| TC032        | Verify account creation confirmation         | Not Run          |               |         |
+| TC033        | Verify account creation navigation           | Not Run          |               |         |
+| TC034        | Login after registration                     | Not Run          |               |         |
+| TC035        | Verify registered user session               | Not Run          |               |         |

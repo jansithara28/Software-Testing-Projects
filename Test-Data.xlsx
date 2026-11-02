@@ -1,0 +1,18 @@
+| Test Data ID | Test Data Description      | Sample Test Data                                                      | Purpose                      |
+| ------------ | -------------------------- | --------------------------------------------------------------------- | ---------------------------- |
+| TD001        | Valid registered account   | Use an account you create on the practice website                     | Positive login               |
+| TD002        | Invalid email              | `invalid-email`                                                       | Negative login               |
+| TD003        | Incorrect password         | `WrongPassword123`                                                    | Negative login               |
+| TD004        | Empty login fields         | Email: blank, Password: blank                                         | Required-field validation    |
+| TD005        | Empty email                | Email: blank, Password: Demo123                                       | Email validation             |
+| TD006        | Empty password             | Email: [user@example.test](mailto:user@example.test), Password: blank | Password validation          |
+| TD007        | Unregistered email         | `unknown@example.test`                                                | Unregistered account login   |
+| TD008        | Invalid email format       | `user@com`                                                            | Email format validation      |
+| TD009        | Email with leading spaces  | `  user@example.test`                                                 | Input handling               |
+| TD010        | Email with trailing spaces | `user@example.test  `                                                 | Input handling               |
+| TD011        | Registration page          | Signup/Login page                                                     | Registration navigation      |
+| TD012        | New registration details   | Name: Test User; Email: use a new test email                          | Positive registration        |
+| TD013        | Existing registered email  | Email of an account already registered by you                         | Duplicate registration       |
+| TD014        | Empty name                 | Name: blank                                                           | Mandatory field validation   |
+| TD015        | Empty registration email   | Email: blank                                                          | Mandatory field validation   |
+| TD016        | Valid personal details     | Fictional name, date of birth, address and mobile number              | Registration form validation |
